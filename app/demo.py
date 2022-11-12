@@ -38,7 +38,7 @@ zones = deliveryzone.DeliveryZoneCreator(farm)
 # for x in range(numLocations):
 #     loc = location.Location(random.randrange(-1 * radius, radius), random.randrange(-1 * radius, radius))
 #     zones.addLocation(loc)
-readFile("locations.txt", zones)
+readFile("clayton-farms-hackathon/app/locations.txt", zones)
 
 # loc1 = location.Location(42.022888, -93.675209)
 # loc2 = location.Location(42.014747, -93.681650)
